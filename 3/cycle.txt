@@ -1,0 +1,14 @@
+   Цикл for уявляємо у такій формі:
+
+   for( init ; cond ; act )
+   {
+      S
+   }
+
+ цикл while:
+init;
+while(cond){
+  S
+  act
+}
+
