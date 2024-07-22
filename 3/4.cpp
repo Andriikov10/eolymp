@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int x1,y1,r1,x2,y2,r2,res=-999;
+    double x1,y1,r1,x2,y2,r2,res=-999;
     cin >> x1 >> y1 >> r1 >> x2 >> y2 >> r2;
     double dist=pow(
         pow(abs(x1-x2),2) + pow(abs(y1-y2),2),
