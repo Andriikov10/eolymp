@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N, min, a;
+    cin >> N >> min;  
+    while(N>1) {
+        cin >> a;
+        if(min>a) min = a;
+        N = N-1; 
+    }
+    cout << min << endl;
+} 
